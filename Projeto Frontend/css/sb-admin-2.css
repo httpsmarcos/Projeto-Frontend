@@ -429,8 +429,7 @@ hr {
 small,
 .small {
   font-size: 80%;
-  font-weight: 400;
-}
+cli}
 
 mark,
 .mark {
@@ -10829,8 +10828,7 @@ a:focus {
   height: 10rem;
   width: 100%;
 }
-
-@media (min-width: 768px) {
+cli@media (min-width: 768px) {
   .chart-area {
     height: 20rem;
   }
@@ -10868,6 +10866,12 @@ a:focus {
 
 .bg-register-image {
   background: url("../img/cadastrar-usuario.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-registerCli-image {
+  background: url("../img/cadastrar-cliente.jpg");
   background-position: center;
   background-size: cover;
 }
